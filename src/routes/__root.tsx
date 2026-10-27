@@ -29,12 +29,8 @@ export const Route = createRootRoute({
     links: [
       { rel: "canonical", href: `${SITE_URL}/` },
       { rel: "icon", href: asset("favicon.svg"), type: "image/svg+xml" },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap",
-      },
+      { rel: "preconnect", href: "https://cdn.jsdelivr.net", crossOrigin: "anonymous" },
+      // 한글을 지원하는 Wanted Sans 하나로 본문·제목·로고를 모두 표시
       {
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css",

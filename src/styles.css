@@ -12,7 +12,7 @@
   --c-8k: #45e584;
   --grad: linear-gradient(110deg, #ff5cc8 0%, #a17bff 55%, #5ad1ff 100%);
   --sans: "Wanted Sans Variable", "Wanted Sans", system-ui, sans-serif;
-  --display: "Space Grotesk", var(--sans);
+  --display: var(--sans);
   --radius: 22px;
   color-scheme: dark;
 }
@@ -88,8 +88,8 @@ main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c-8k); box-shadow: 0 0 10px var(--c-8k); }
 .hero h1 { margin: 0; font-weight: 800; }
 .wordmark {
-  display: block; font-family: var(--display); font-weight: 700;
-  font-size: clamp(4.5rem, 13vw, 9rem); line-height: 0.9; letter-spacing: -0.06em;
+  display: block; font-family: var(--display); font-weight: 800;
+  font-size: clamp(4.5rem, 13vw, 9rem); line-height: 0.9; letter-spacing: -0.05em;
   background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .title { display: block; margin-top: 20px; font-size: clamp(1.9rem, 4.2vw, 3rem); line-height: 1.2; letter-spacing: -0.035em; font-weight: 700; }
@@ -175,7 +175,7 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
 .lanes i { width: 6px; height: 100%; border-radius: 3px; background: var(--c); opacity: 0.35; }
 .lanes i:nth-child(odd) { opacity: 0.85; height: 70%; }
 
-.mode { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(3.2rem, 6vw, 4.4rem); line-height: 1; letter-spacing: -0.06em; color: var(--c); }
+.mode { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(3.2rem, 6vw, 4.4rem); line-height: 1; letter-spacing: -0.04em; color: var(--c); }
 .card-top .mode { font-size: clamp(2.6rem, 5vw, 3.4rem); }
 .stretched::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 .criteria-label { margin: 20px 0 8px; font-size: 0.85rem; color: var(--muted); }
