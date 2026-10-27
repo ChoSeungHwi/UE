@@ -6,7 +6,7 @@ import { asset } from "../content";
 const SITE_URL = import.meta.env.VITE_SITE_URL.replace(/\/$/, "");
 const TITLE = "U_E 유이팩 | BMS 최초 4키·6키·8키 난이도표";
 const DESCRIPTION =
-  "유이팩(U_E)은 Qwilight 개발자 Dev Taehui와 협업해 만든 BMS 최초의 4키·6키 난이도표입니다. 난이도표, 4K·6K·8K 패키지 다운로드, 디스코드 커뮤니티 안내.";
+  "유이팩(U_E)은 Qwilight 개발자 Dev Taehui와 협업해 만든 BMS 최초의 4키·6키·8키 난이도표입니다. 난이도표, 4K·6K·8K 패키지 다운로드, 디스코드 커뮤니티 안내.";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -51,7 +51,7 @@ export const Route = createRootRoute({
           alternateName: ["U_E", "UE", "유이팩"],
           url: `${SITE_URL}/`,
           inLanguage: "ko-KR",
-          description: "Qwilight 전용 BMS 최초의 4키·6키 난이도표",
+          description: "Qwilight 전용 BMS 최초의 4키·6키·8키 난이도표",
         }),
       },
     ],

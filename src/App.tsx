@@ -60,7 +60,7 @@ export default function App() {
             </h1>
             <p className="lead">
               유이팩은 Qwilight 개발자 Dev Taehui와 협업하여 만들어진
-              BMS 최초의 6키, 4키 난이도표입니다.
+              BMS 최초의 6키, 4키, 8키 난이도표입니다.
             </p>
             <div className="cta">
               <a href="#tables" className="btn primary">난이도표 보기</a>
