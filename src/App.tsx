@@ -55,7 +55,7 @@ export default function App() {
             <p className="eyebrow"><span className="dot" /> Qwilight 전용 · BMS 최초</p>
             <h1>
               <span className="wordmark">U_E</span>
-              <span className="title">4키 · 6키 · 8키<br />BMS 난이도표</span>
+              <span className="title">4키 · 6키 · 8키<br />BMS 패키지</span>
               <span className="sr-only"> 유이팩</span>
             </h1>
             <p className="lead">
@@ -178,10 +178,9 @@ export default function App() {
 
       <footer>
         <span className="brand">U<span>_</span>E</span>
-        <div className="credits">
-          <p>그림 !J1BJU2N · 스크린샷 6K U_E official</p>
-          <p>개발 <a href="https://github.com/Dev-Taehui" {...ext}>Dev Taehui</a></p>
-        </div>
+        <p className="credits">
+          그림 !J1BJU2N · 개발 <a href="https://github.com/Dev-Taehui" {...ext}>Dev Taehui</a>
+        </p>
       </footer>
     </>
   );
