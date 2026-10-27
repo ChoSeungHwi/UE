@@ -13,7 +13,6 @@
   --grad: linear-gradient(110deg, #ff5cc8 0%, #a17bff 55%, #5ad1ff 100%);
   --sans: "Wanted Sans Variable", "Wanted Sans", system-ui, sans-serif;
   --display: "Space Grotesk", var(--sans);
-  --mono: "JetBrains Mono", ui-monospace, monospace;
   --radius: 22px;
   color-scheme: dark;
 }
@@ -150,7 +149,7 @@ main { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
 /* sections */
 .block { padding: 96px 0 0; }
 .block-head { margin-bottom: 32px; }
-.label { margin: 0 0 8px; font-family: var(--mono); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pink); }
+.label { margin: 0 0 8px; font-family: var(--display); font-variant-numeric: tabular-nums; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pink); }
 h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-spacing: -0.03em; font-weight: 700; }
 
 .grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
@@ -196,19 +195,19 @@ h2 { margin: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; letter-
 }
 .step:hover { border-color: rgba(255, 92, 200, 0.5); }
 .step .arrow { margin-left: auto; width: 22px; height: 22px; }
-.step-num { font-family: var(--mono); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; color: var(--pink); white-space: nowrap; }
+.step-num { font-family: var(--display); font-variant-numeric: tabular-nums; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; color: var(--pink); white-space: nowrap; }
 .step-2 { margin: 0 0 14px; }
 .step-body { display: flex; flex-direction: column; }
 .step-body strong { font-size: 1.15rem; }
 .step-body span { color: var(--muted); font-size: 0.95rem; }
 
-.badge { font-family: var(--mono); padding: 4px 10px; border-radius: 999px; font-size: 0.8rem; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }
+.badge { font-family: var(--display); font-variant-numeric: tabular-nums; padding: 4px 10px; border-radius: 999px; font-size: 0.8rem; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }
 .buttons { display: flex; flex-direction: column; gap: 8px; position: relative; z-index: 1; }
 .buttons .btn.primary { background: var(--c); color: #0a0a12; box-shadow: 0 8px 28px -10px var(--c); }
 .buttons .btn.outline { background: transparent; color: var(--c); border-color: color-mix(in srgb, var(--c) 55%, transparent); }
 .buttons .btn.outline:hover { background: color-mix(in srgb, var(--c) 10%, transparent); }
 .btn.file { justify-content: space-between; }
-.file-meta { font-family: var(--mono); font-size: 0.78rem; font-weight: 500; opacity: 0.75; }
+.file-meta { font-family: var(--display); font-variant-numeric: tabular-nums; font-size: 0.78rem; font-weight: 500; opacity: 0.75; }
 .patch { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
 
 /* discord */
