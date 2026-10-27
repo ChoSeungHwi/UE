@@ -42,16 +42,16 @@ export const tables: Table[] = [
     label: "4K",
     url: "https://classmaterma.github.io/4UE/table.html",
     criteria: ["4UE1~18: Qwilight Hard Gauge", "4UE19~: 97%"],
+    extra: {
+      label: "스프레드시트",
+      url: "https://docs.google.com/spreadsheets/d/1Vjeqo8a6WF4QoscNCot3PszeWCpXIaN2B92kse0BoH0/edit?usp=sharing",
+    },
   },
   {
     mode: "6k",
     label: "6K",
     url: "https://classmaterma.github.io/UE/table.html",
     criteria: ["Qwilight Hard Gauge"],
-    extra: {
-      label: "스프레드시트",
-      url: "https://docs.google.com/spreadsheets/d/1Vjeqo8a6WF4QoscNCot3PszeWCpXIaN2B92kse0BoH0/edit?usp=sharing",
-    },
   },
   {
     mode: "8k",
