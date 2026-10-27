@@ -41,7 +41,7 @@ export const tables: Table[] = [
     mode: "4k",
     label: "4K",
     url: "https://classmaterma.github.io/4UE/table.html",
-    criteria: ["4UE1~19: Qwilight Hard Gauge", "4UE20~: 97%"],
+    criteria: ["4UE1~18: Qwilight Hard Gauge", "4UE19~: 97%"],
   },
   {
     mode: "6k",
