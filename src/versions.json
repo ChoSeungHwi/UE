@@ -1,0 +1,50 @@
+{
+  "4k": {
+    "version": "2.3",
+    "updated": "2026-09-19",
+    "fullPack": {
+      "url": "https://repository.browser.dotoritos.net/4k/4K%20U_E%20FULL%20PACK%202.3.zip",
+      "version": "2.3",
+      "size": 25969709146,
+      "updated": "2026-09-19"
+    },
+    "patch": {
+      "url": "https://repository.browser.dotoritos.net/4k/4k%202.3.zip",
+      "version": "2.3",
+      "size": 1938233029,
+      "updated": "2026-09-14"
+    }
+  },
+  "6k": {
+    "version": "3.2",
+    "updated": "2026-08-29",
+    "fullPack": {
+      "url": "https://repository.browser.dotoritos.net/6k/6K%20U_E%20FULL%20PACK%203.2.zip",
+      "version": "3.2",
+      "size": 44507303238,
+      "updated": "2026-08-29"
+    },
+    "patch": {
+      "url": "https://repository.browser.dotoritos.net/6k/3.2.zip",
+      "version": "3.2",
+      "size": 2748327438,
+      "updated": "2026-08-29"
+    }
+  },
+  "8k": {
+    "version": "2.0",
+    "updated": "2026-07-09",
+    "fullPack": {
+      "url": "https://repository.browser.dotoritos.net/8k/8K%20U_E%20FULL%20PACK%202.0.zip",
+      "version": "2.0",
+      "size": 4081849622,
+      "updated": "2026-07-09"
+    },
+    "patch": {
+      "url": "https://repository.browser.dotoritos.net/8k/8K%202.0.zip",
+      "version": "2.0",
+      "size": 1636700732,
+      "updated": "2026-07-09"
+    }
+  }
+}
