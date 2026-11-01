@@ -179,7 +179,7 @@ export default function App() {
       <footer>
         <span className="brand">U<span>_</span>E</span>
         <p className="credits">
-          그림 !J1BJU2N · 개발 <a href="https://github.com/Dev-Taehui" {...ext}>Dev Taehui</a>
+          그림 <a href="https://www.pixiv.net/users/74053395/illustrations?p=2" {...ext}>레마</a> · 개발 <a href="https://github.com/Dev-Taehui" {...ext}>Dev Taehui</a>
         </p>
       </footer>
     </>
